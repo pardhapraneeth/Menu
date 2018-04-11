@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/clear"
+        android:title="Clear" />
+    <item android:id="@+id/edit"
+        android:title="Edit">
+
+
+        <menu>
+
+                <item android:id="@+id/action3_sub1"
+                    android:title="cut"
+
+                     />
+
+                <item android:id="@+id/action3_sub2"
+                    android:title="copy"
+
+                    />
+
+                <item android:id="@+id/action3_sub3"
+                    android:title="paste"
+
+                    />
+
+        </menu>
+    </item>
+    <item android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
